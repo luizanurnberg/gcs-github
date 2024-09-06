@@ -1,0 +1,57 @@
+Principais Comandos no gerenciamento de um repositório no GitHub
+
+1. Clonar Repositório
+   - `git clone <URL>` : Clona um repositório remoto para o seu computador.
+
+2. Verificar Status
+   - `git status` : Exibe o status das mudanças no repositório.
+
+3. Adicionar Arquivos para Commit
+   - `git add <arquivo>` : Adiciona um arquivo específico para o próximo commit.
+   - `git add .` : Adiciona todos os arquivos modificados para o próximo commit.
+
+4. Fazer Commit
+   - `git commit -m "mensagem do commit"` : Faz o commit das mudanças com uma mensagem descritiva.
+
+5. Ver Histórico de Commits
+   - `git log` : Exibe o histórico de commits.
+
+6. Criar e Trocar de Branch
+   - `git branch <nome-da-branch>` : Cria uma nova branch.
+   - `git checkout <nome-da-branch>` : Troca para a branch especificada.
+   - `git checkout -b <nome-da-branch>` : Cria e troca para a nova branch ao mesmo tempo.
+
+7. Mesclar Branches
+   - `git merge <nome-da-branch>` : Mescla a branch especificada com a branch atual.
+
+8. Enviar Mudanças para o Repositório Remoto
+   - `git push` : Envia as mudanças para o repositório remoto.
+   - `git push origin <nome-da-branch>` : Envia uma branch específica para o repositório remoto.
+
+9. Buscar Mudanças do Repositório Remoto
+    - `git pull` : Puxa e mescla as mudanças do repositório remoto para a branch local atual.
+    - `git fetch` : Busca as mudanças do repositório remoto sem mesclar.
+
+10. Remover Arquivos do Repositório
+    - `git rm <arquivo>` : Remove o arquivo do repositório e do diretório.
+
+11. Reverter Mudanças
+    - `git reset <arquivo>` : Remove o arquivo da área de staging.
+    - `git reset --hard` : Reverte todas as mudanças para o último commit.
+
+12. Ver Diferenças Entre Commits
+    - `git diff` : Exibe as diferenças entre commits ou entre o repositório local e remoto.
+
+13. Renomear Branch Local
+    - `git branch -m <novo-nome>` : Renomeia a branch local atual.
+
+14. Excluir Branch Local ou Remota
+    - `git branch -d <nome-da-branch>` : Exclui a branch local.
+    - `git push origin --delete <nome-da-branch>` : Exclui a branch remota.
+
+
+Configurações globais do git
+
+1. Configurar Identidade do Usuário
+    - `git config --global user.name "Seu Nome"` : Configura o nome do usuário.
+    - `git config --global user.email "seuemail@exemplo.com"` : Configura o email do usuário.
